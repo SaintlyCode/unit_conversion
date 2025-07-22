@@ -1,0 +1,30 @@
+<html>
+    <head>
+        <link rel="stylesheet" href="index.css">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap" rel="stylesheet">
+    </head>
+    <body>
+        <div id="title-content" class="inter-font"> 
+            <h1 id="title">Metric/Imperial Unit Conversion</h1>
+            <input type="text" id="edt-unit" class="inter-font"></p>
+            <button id="btn-convert" class="inter-font">Convert</button>    
+        </div>
+        <div id="conversion-content" class="inter-font">
+            <div class="conversion-unit" id="length-conversion">
+                <h2 class="conversion-unit-title">Length (Meter/Feet)</h2> 
+                <p class="conversion-unit-item" id="length-el"></p>  
+            </div>
+            <div class="conversion-unit">
+                <h2 class="conversion-unit-title">Volume (Liters/Gallons)</h2>  
+                <p class="conversion-unit-item" id="volume-el"></p>     
+            </div>
+            <div class="conversion-unit">
+                <h2 class="conversion-unit-title">Mass (Kilograms/Pounds)</h2>
+                <p class="conversion-unit-item" id="mass-el"></p>  
+            </div> 
+        </div>   
+        <script src="index.js"></script>
+    </body>
+</html>

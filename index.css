@@ -1,0 +1,93 @@
+.inter-font {
+  font-family: "Inter", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 800;
+  font-style: normal;
+}
+
+body {
+    background-color: #F4F4F4;
+    margin: 0;
+}
+
+#title, #edt-unit {
+    color: #FFFFFF
+}
+
+#title {
+    margin-bottom: 30px;
+    margin-top: 34px;
+    font-size: 28px;
+}
+
+#title-content {
+    background-color: #6943FF;
+    height: 285px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+#edt-unit {
+    background: none;
+    border: 3px solid #B295FF;
+    border-radius: 5px;
+    box-sizing: border-box;
+    font-size: 56px;
+    height: 80px;
+    line-height: 24px;
+    letter-spacing: 2px;
+    text-align: center;
+    width: 117px;  
+}
+
+#btn-convert {
+    background: #FFFFFF;
+    border: none;
+    border-radius: 5px;
+    box-sizing: border-box;
+    color: #3D3D3D;
+    font-size: 16px;
+    font-weight: 550;
+    height: 42px;
+    line-height: 24px;
+    margin-bottom: 34px;
+    width: 117px;
+}
+
+#conversion-content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 15px;
+}
+
+#length-conversion {
+    margin-top: 34px;
+}
+
+.conversion-unit {
+    background-color: white;
+    border-radius: 4px;
+    height: 95px;
+    margin-bottom: 24px;
+    padding-top: 18px;
+    text-align: center;
+    width: 500px;
+}
+
+.conversion-unit-title {
+    color: #5A537B;
+    font-size: 20px;
+    font-weight: 580;
+    line-height: 20px;
+    margin-bottom: 9px;
+}
+
+.conversion-unit-item {
+    color: 353535;
+    font-size: 14px;
+    font-weight: 400;
+}
